@@ -1,5 +1,5 @@
 # encoding: utf-8
-require 'celluloid'
+require 'celluloid/current'
 require 'net/ping/tcp'
 require "sinatra/base"
 require "slim"

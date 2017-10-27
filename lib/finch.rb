@@ -63,7 +63,7 @@ module Finch
 
     def ping(name, opts)
       pings << name
-      Pinger.supervise_as(name, name, opts)
+      Pinger.supervise(as: name, args: [name, opts])
     end
   end
 
